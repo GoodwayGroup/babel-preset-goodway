@@ -1,0 +1,34 @@
+{
+  "name": "babel-preset-goodway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodwayGroup/babel-preset-goodway.git"
+  },
+  "author": "Julian Lannigan <julian.lannigan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GoodwayGroup/babel-preset-goodway/issues"
+  },
+  "homepage": "https://github.com/GoodwayGroup/babel-preset-goodway#readme",
+  "dependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-syntax-async-generators": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-catch-polyfill": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.18.0",
+    "babel-plugin-transform-decorators": "^6.13.0",
+    "babel-plugin-transform-export-extensions": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-plugin-transform-regenerator": "^6.16.1",
+    "babel-preset-async-to-bluebird": "^1.1.0",
+    "babel-preset-es2015-node6": "^0.4.0",
+    "bluebird": "^3.4.6"
+  }
+}
